@@ -81,6 +81,7 @@ const LandingPage = () => {
               <div key={i + "first"}>
                 <TrendingTShirt
                   setHover={setHover}
+                  hover={hover}
                   id={i + "first"}
                   img={item.image}
                   txt={item.txt}
