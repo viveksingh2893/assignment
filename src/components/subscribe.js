@@ -27,11 +27,11 @@ const Subscribe = () => {
           </p>
         </button>
       </div>
-      <div style={{position:"absolute", left:"-5vw"}}>
-      <SvgIcon name="leftstyle" height="23vw" width="23vw"/> 
+      <div style={{position:"absolute", left:"-7vw"}}>
+      <SvgIcon name="leftstyle" height="50vh" width="23vw"/> 
       </div>
       <div style={{position:"absolute", right:"-7vw"}}>
-      <SvgIcon name="rightstyle" height="23vw" width="23vw"/>
+      <SvgIcon name="rightstyle" height="50vh" width="23vw"/>
       </div>
     
     </div>
