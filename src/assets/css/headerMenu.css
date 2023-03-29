@@ -1,0 +1,52 @@
+.headermenu_container {
+  display: flex;
+  width: 100%;
+  height: 11.46vh;
+  background: #ffffff;
+  box-shadow: 0px 8px 21px rgba(0, 0, 0, 0.16);
+  position: fixed;
+  top:6.25vh;
+  z-index: 2;
+}
+
+.headermenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin:0 9.5vw;
+}
+
+.headermenu_text{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1vw;
+    line-height: 1.2vw;
+    margin:0;
+    color: #1C1C1C;
+}
+
+.headermenu_burger{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.headermenu_options{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width:11vw;
+}
+
+.headermenu_icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
